@@ -1,0 +1,73 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#container {
+    width: 100%;
+
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+img {
+    width: 100%;
+}
+
+button#giveMeColorBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+}
+
+.clicked {
+    color: #7f8c8d;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+h1#clock {
+    font-size: 100px;
+    color: #ff3f34;
+    /* color: #eee; */
+}
+
+h4.js-greetings{
+    font-size: 30px;
+    color: fuchsia;
+ }
+ div#quote span:first-child {
+     font-size: 25px;
+     font-weight: bolder;
+     color: greenyellow;
+     //text-decoration: underline;
+    }
+    
+div#quote span:last-child {
+    font-size: 17px;
+    font-weight: bolder;
+    color: greenyellow;
+}
+    
+div#weather span {
+    font-size: 20px;
+    color: #ffc107;
+}
+
+ul#todo-list li {
+    font-size: 18px;
+    font-weight: bolder;
+    color: yellow;
+}
